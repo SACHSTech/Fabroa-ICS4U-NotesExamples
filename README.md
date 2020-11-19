@@ -29,3 +29,10 @@ When pushing changes from your local repository to your fork in github, be sure 
 ```
 git push origin main
 ```
+
+## Compiling and running examples
+We will follow best practices by compiling to the `bin` directory and running the `.class` that was created.
+```
+javac -d bin src/package/subpackage/YourCode.java
+java -classpath bin package.subpackage.YourCode
+```
