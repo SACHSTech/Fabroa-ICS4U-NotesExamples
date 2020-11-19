@@ -9,10 +9,9 @@ Example
 ## Compiling and Running Java Programs
 Running a java program is a two-step process consisting of compiling a program and then running it.
 
-### 1. Compiling java source code
 You write your source code in a `.java` file (i.e `MyProgram.java`), this must be compiled in order to run.  The output of the compilation process a `.class` file (i.e `MyProgram.class`).  It is the `.class` file that is run.
 
-#### Basic Example
+### Basic Example
 Here, we compile the program in the terminal using `javac` and then run it using the `java` command.
 ```
 javac MyProgram.java
