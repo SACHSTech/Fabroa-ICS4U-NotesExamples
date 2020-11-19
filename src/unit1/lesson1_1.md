@@ -33,6 +33,13 @@ java -classpath bin package.subpackage.MyProgram
 * In the compilation line, `-d bin` indicates that the destination of the resulting `.class` file to be a directory called `bin`. What follows is the file to compile including it's filepath within the `src` directory.
 * In the execution line,  `-classpath bin` indicates that the program to be run is in the `bin` directory, what follows is the name of the program to run, including it's parent packages (folders) i.e `package.subpackage.MyProgram`
 
+### Example1_1_1.java
+Try compiling and running Example1_1_1.java
+```
+javac -d bin src/unit1/Example1_1_1.java
+java -classpath bin unit1.Example1_1_1
+```
+
 
 
 
