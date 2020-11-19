@@ -19,7 +19,13 @@ git remote add upstream https://github.com/SACHSTech/Fabroa-ICS4U-NotesExamples.
 ```
 
 ### Getting Updates from the parent fork
-When changes are made to the parent fork (i.e new notes), you will need to pull the changes to your repository
+When changes are made to the parent fork (i.e new notes), you will need to pull the changes to your fork/repository
 ```
 git pull upstream main
+```
+
+### Pushing Changes to Your Fork
+When pushing changes from your local repository to your fork in github, be sure to push to your `origin` remote:
+```
+git push origin main
 ```
