@@ -13,6 +13,7 @@ You write your source code in a `.java` file (i.e `MyProgram.java`), this must b
 
 ### Basic Example
 Here, we compile the program in the terminal using `javac` and then run it using the `java` command.
+
 ```
 javac MyProgram.java
 java MyProgram
@@ -33,7 +34,8 @@ java -classpath bin package.subpackage.MyProgram
 * In the execution line,  `-classpath bin` indicates that the program to be run is in the `bin` directory, what follows is the name of the program to run, including it's parent packages (folders) i.e `package.subpackage.MyProgram`
 
 ### Example1_1_1.java
-Try compiling and running Example1_1_1.java
+Try compiling and running Example1_1_1.java  
+
 ```
 javac -d bin src/unit1/Example1_1_1.java
 java -classpath bin unit1.Example1_1_1
