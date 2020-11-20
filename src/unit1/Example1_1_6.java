@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Example1_1_6{
 	public static void main(String[] args) throws IOException{
-		PrintWriter theout = new PrintWriter(new FileWriter("wutang.txt", true));
+		PrintWriter theout = new PrintWriter(new FileWriter("src/unit1/wutang.txt", true));
 		theout.println("RZA");
 		theout.println("GZA");
 		theout.println("Inspectah Deck");
