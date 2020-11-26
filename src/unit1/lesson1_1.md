@@ -5,8 +5,8 @@
 * [Output](#output)
 * [Input](#input)
 [Getting Numerical Input](#getting-numerical-input)  
-[File Input](#file-input)  
-[File Output](#file-output)  
+* [File Input](#file-input)  
+* [File Output](#file-output)  
  
 
 
