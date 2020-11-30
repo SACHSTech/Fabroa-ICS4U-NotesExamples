@@ -110,10 +110,17 @@ public static boolean twoAsOne(int number1, int number2, int number3){
 
 Now let's try compiline and running again
 ```
-javac -d bin src/tdd/TDDExample.java  
-bash-3.2$ javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/tdd/TDDExampleTest.java  
-bash-3.2$ java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c tdd.TDDExampleTest  
+> javac -d bin src/tdd/TDDExample.java  
+> javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/tdd/TDDExampleTest.java  
+> java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c tdd.TDDExampleTest  
+> java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c tdd.TDDExampleTest
 ```
+Note, your can edit your `.replit` file to include in your run command
+```
+run = "javac -d bin src/tdd/TDDExample.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/tdd/TDDExampleTest.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c tdd.TDDExampleTest 
+```
+
+
 This results in a passed test:
 ```
 Test run finished after 109 ms
@@ -130,6 +137,21 @@ Test run finished after 109 ms
 [         1 tests successful      ]
 [         0 tests failed          ]
 ```
+
+### 3. REFACTOR
+Now that we've passed the test, we can refactor our code to make it check for a proper condition
+```
+public static boolean twoAsOne(int number1, int number2, int number3){
+    if (number1 + number2 == number3){
+      return true;
+    }
+
+    return true;
+  }
+``` 
+Recompiling and running the test still yields a successful test.  We can now move to another iteration of the cycle.
+
+
 
 
 
