@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Example1_1_5{
 	public static void main(String[] args) throws IOException{
-		BufferedReader thefile = new BufferedReader(new FileReader("youtube.txt"));
+		BufferedReader thefile = new BufferedReader(new FileReader("src/unit1/youtube.txt"));
 
 		String strStuff;
 		// If the readLine returns null... it is returning nothing
