@@ -31,15 +31,15 @@ public class Recursion{
     }
   }
 
-public static String reverse(String strWord){
-  // base case
-  if (strWord.equals("")){
-    return "";
-  }else{
-    // recursive step
-    return reverse(strWord.substring(1)) + strWord.substring(0,1);
+  public static String reverse(String strWord){
+    // base case
+    if (strWord.equals("")){
+      return "";
+    }else{
+      // recursive step
+      return reverse(strWord.substring(1)) + strWord.substring(0,1);
+    }
   }
-}
 }
 
 
