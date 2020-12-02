@@ -1,2 +1,2 @@
 language = "java10"
-run = "javac -d bin src/unit1/Example1_1_1.java | java -classpath bin unit1.Example1_1_1"
+run = "javac -d bin src/recursion/Recursion.java; java -cp bin recursion.Recursion"

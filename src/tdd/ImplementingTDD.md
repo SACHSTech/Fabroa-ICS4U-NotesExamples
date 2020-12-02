@@ -3,9 +3,9 @@
 ## Objective
 Consider the following problem that we want to apply TDD practices to:  
 
-### `twoAsOne1`
-> Write a method `twoAsOnetwoAsOne(int number1, int number2, int number3)`1Given three ints, a b c, return true if it is possible to add two of the ints to get the third.
-**Signature** `public boolean woAsOnetwoAsOne(int number1, int number2, int number3)`  
+### `twoAsOne`
+> Write a method `twoAsOne(int number1, int number2, int number3)`. Given three ints, number1, number2, number3, return true if it is possible to add two of the ints to get the third.
+**Signature** `public boolean twoAsOne(int number1, int number2, int number3)`  
 
 Examples
 >> twoAsOne(1, 2, 3) → true  
@@ -60,10 +60,10 @@ We can define methods that will run before and test begins and after a test has 
 
 #### @Test Method(s)
 ```
-@Test
-    public void Test1(){
-        // make assertion statment(s)
-    }
+  @Test
+  public void Test1(){
+      // make assertion statment(s)
+  }
 ```
 * All tests methods are give an @Test tag
 * Return type is `void`
@@ -113,7 +113,6 @@ Now let's try compiline and running again
 > javac -d bin src/tdd/TDDExample.java  
 > javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/tdd/TDDExampleTest.java  
 > java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c tdd.TDDExampleTest  
-> java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c tdd.TDDExampleTest
 ```
 Note, your can edit your `.replit` file to include in your run command
 ```

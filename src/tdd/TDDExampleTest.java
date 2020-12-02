@@ -1,11 +1,11 @@
-package TDD;
+package tdd;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.junit.After;
 import org.junit.Before;
 
-import TDD.TDDExample;
+import tdd.TDDExample;
 
 
 public class TDDExampleTest {
@@ -31,7 +31,25 @@ public class TDDExampleTest {
     @Test
     public void Test1(){
         // make assertion statment(s)
+        assertEquals(true, TDDExample.twoAsOne(1,2,3));
     }
-    
+
+    @Test
+    public void Test2(){
+      assertEquals(false, TDDExample.twoAsOne(2,2,3));
+    }
+
+    @Test
+    public void Test3(){
+        // make assertion statment(s)
+        assertEquals(true, TDDExample.twoAsOne(3,2,1));
+    }
+
+    @Test
+    public void Test4(){
+        // make assertion statment(s)
+        assertEquals(true, TDDExample.twoAsOne(2,3,1));
+    }
+ 
     
 }
