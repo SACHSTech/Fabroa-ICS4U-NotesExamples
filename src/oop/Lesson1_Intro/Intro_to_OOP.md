@@ -10,6 +10,12 @@
 * class →  a blueprint of an object
 * object → an **instance** of a class
 
+![class-object](class-object.png)
+> Think of a class as a blueprint –  you can't live in it, but you can build a house (an object) from it.
+
+
+
+
 
 
 
