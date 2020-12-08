@@ -54,6 +54,21 @@ When we define an object with a class, we define the rules for which the program
 you’ll notice that we’ve created a number of “get” and a number “set” type functions, accessor and mutators, these methods comprise the interface of the object.
 ![interface](interface.png)
 
+## How Do We Encapsulate?
+
+### Getter and Setter Methods
+Getter and Setter methods are methods that let you get and set the values of an object's attributes.
+#### Getter Methods
+A getter methods lets you get access to some attributes of an object, also known as **accessor** methods
+standard to have a prefix `get` in the function name i.e `getSize()`  
+
+#### Setter Methods
+* Lets you set values of attributes of an object, also known and **modifier** methods
+* standard to have a prefix `set` in the function name i.e `setSize()`
+* no return value in a setter method (void)
+
+## Private Methods and Variables
+By default, all methods and instance variables we define for a class are accessible to classes within the same package(except subclasses), meaning they can be called by any instance of an object. Sometimes, we want to restrict usage of some methods and attributes from being used outside of a class. Defining an instance variable as `private` will limit visibility to within the class.
 
 
 
