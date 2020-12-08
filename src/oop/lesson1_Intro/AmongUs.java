@@ -1,5 +1,6 @@
 package oop.lesson1_Intro;
 
+
 import oop.lesson1_Intro.Player;
 
 public class AmongUs{
@@ -43,4 +44,5 @@ public class AmongUs{
     player3.vote("Shar");
     player4.vote("Shar");
   }
+
 }

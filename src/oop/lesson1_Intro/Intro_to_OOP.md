@@ -34,6 +34,7 @@
 ### Class Implementation
 Consider the game Among Us. Among other classes, we need one to represent a Player.  Defining a class is a *class implementation*. When we  implement the Player class, we would do so in a file called Player.java
 
+
 [See Player.java class](Player.java)
 ```
 public class Player{
@@ -51,6 +52,7 @@ public class Player{
 
 
 
+
 ### Instance variables
 * Variables defined within a class are called instance variables because each instance of the class (that is, each object of the class) contains its own copy of these variables. 
 * Defines the information we want to keep/maintain about an object, i.e `name`, `health`, etc.
@@ -59,6 +61,7 @@ public class Player{
 
 ### Instance methods
 * Methods defined within a class that represent what an object can do. i.e `walk()`, `performTask()`, `vote()`
+
 
 ```
 
@@ -87,12 +90,14 @@ public class Player{
   }
   ```
 
+
 ### Constructor Method(s)
 * special methods defined in a class, used to initialize the an object
 * called when a new object is created
 * the same name as the class
 * no return value in the method signature
 * can be defined with input parameters that are specified when an object is created.
+
 
 ```
  public Player(String newUsername, String newRole, String newColor, String newHat, String newPet){
@@ -104,6 +109,7 @@ public class Player{
     this.pet = newPet;
   }
 ```
+
 
 ## Class Instantiation - Creating Objects
 Once again, a class is just a blueprint, not a usable object.  To make an object of the type `Player` from our `Player` class we need to instantiate it.  Objects are typically created within other classes, not within its own class definition.  In our example, we create a `Player` object within the `AmongUs` class.
@@ -125,6 +131,7 @@ In the lines above:
 * we declare a variable of the type `Player` called `player1`
 * the `new Player(...)` part is a call to the `constructor` method, passing in details of the player at the time of creation (instantiation)
 * assignment operator in between means we assign the result of the constructor to our `player1` variable
+
 
 Once we we create an object, we can begin to make use of it's methods.
 
@@ -155,9 +162,6 @@ Once we we create an object, we can begin to make use of it's methods.
     player3.vote("Shar");
     player4.vote("Shar");
 ```
-
-
-
 
 
 
