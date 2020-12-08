@@ -1,6 +1,10 @@
 language = "java10"
 # run = "javac -cp bin -d bin -sourcepath src src/oop/lesson1_Intro/Player.java; javac -cp bin -d bin # src/oop/lesson1_Intro/AmongUs.java; java -cp bin oop.lesson1_Intro.AmongUs"
 
+
 # run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"
 
 run = "javac -d bin src/oop/lesson2_Encapsulation/*.java; java -cp bin oop.lesson2_Encapsulation.AngryBird2"
+
+# run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"
+
