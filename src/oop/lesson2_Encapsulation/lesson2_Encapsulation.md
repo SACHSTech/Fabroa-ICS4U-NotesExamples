@@ -69,6 +69,8 @@ standard to have a prefix `get` in the function name i.e `getSize()`
 
 ## Private Methods and Variables
 By default, all methods and instance variables we define for a class are accessible to classes within the same package(except subclasses), meaning they can be called by any instance of an object. Sometimes, we want to restrict usage of some methods and attributes from being used outside of a class. Defining an instance variable as `private` will limit visibility to within the class.
+![modifiers](modifiers.png)
+
 
 
 
