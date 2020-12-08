@@ -37,7 +37,23 @@ while health of wall > 0
 
 ```
 
-## Implementation 1 - [AngryBirds1.java](AngryBirds1.java)
+### Implementation 1 - [AngryBird1.java](AngryBird1.java)
+
+### Implmentation 2 Object Oriented - [AngryBird2.java](AngryBird2.java)
+
+
+## Encapsulation - A Separation of Concerns
+* Encapsulation is known as a **separation of concerns**	 	 	 		
+* The implementation details of an object are enclosed in the class definition, which insulates the rest of the program from having to deal with them 
+* Striving for a separation of concerns is **good design**.
+* keeping the internal workings of your code safe from interference from the programs that use it
+
+
+### Encapsulation & Interface
+When we define an object with a class, we define the rules for which the program is able to interact with the object
+you’ll notice that we’ve created a number of “get” and a number “set” type functions, accessor and mutators, these methods comprise the interface of the object.
+![interface](interface.png)
+
 
 
 
