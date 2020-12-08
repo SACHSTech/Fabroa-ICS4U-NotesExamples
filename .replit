@@ -1,2 +1,4 @@
 language = "java10"
-run = "javac -d bin src/recursion/Recursion.java; java -cp bin recursion.Recursion"
+# run = "javac -cp bin -d bin -sourcepath src src/oop/lesson1_Intro/Player.java; javac -cp bin -d bin # src/oop/lesson1_Intro/AmongUs.java; java -cp bin oop.lesson1_Intro.AmongUs"
+
+run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"

@@ -34,7 +34,23 @@
 ### Class Implementation
 Consider the game Among Us. Among other classes, we need one to represent a Player.  Defining a class is a *class implementation*. When we  implement the Player class, we would do so in a file called Player.java
 
-*insert demo Player class here* 
+
+[See Player.java class](Player.java)
+```
+public class Player{
+  // instance variables
+  Boolean aliveYN;
+  String role;
+  String color;
+  String username;
+  String hat;
+  String pet;
+
+  // instance methods
+}
+```
+
+
 
 
 ### Instance variables
@@ -46,6 +62,35 @@ Consider the game Among Us. Among other classes, we need one to represent a Play
 ### Instance methods
 * Methods defined within a class that represent what an object can do. i.e `walk()`, `performTask()`, `vote()`
 
+
+```
+
+  public void performTask(String strTask){
+    System.out.println("Performing Task; " + strTask);
+  }
+
+  public void walk(){
+    System.out.println(this.username + " is walking.");
+  }
+
+  public void sabotage(String strSabotage){
+    System.out.println(this.username + " sabotaging: " + strSabotage);
+  }
+
+  public void speak(String strText){
+    System.out.println(this.username + " says: " + strText);
+  }
+
+   public void callEmergencyMeeting(){
+    System.out.println(this.username + " has called an Emergency Meeting ");
+  }
+
+  public void vote(String strVoteName){
+    System.out.println(this.username + " voted for " + strVoteName);
+  }
+  ```
+
+
 ### Constructor Method(s)
 * special methods defined in a class, used to initialize the an object
 * called when a new object is created
@@ -53,14 +98,33 @@ Consider the game Among Us. Among other classes, we need one to represent a Play
 * no return value in the method signature
 * can be defined with input parameters that are specified when an object is created.
 
-*insert constructor of Player here*
+
+```
+ public Player(String newUsername, String newRole, String newColor, String newHat, String newPet){
+    this.aliveYN = true;
+    this.username = newUsername;
+    this.role = newRole;
+    this.color = newColor;
+    this.hat = newHat;
+    this.pet = newPet;
+  }
+```
+
 
 ## Class Instantiation - Creating Objects
 Once again, a class is just a blueprint, not a usable object.  To make an object of the type `Player` from our `Player` class we need to instantiate it.  Objects are typically created within other classes, not within its own class definition.  In our example, we create a `Player` object within the `AmongUs` class.
 
 ```
-Player player1;
-player 1 = new Player("mrfabroa", "crewmate", "yellow", "fedora");
+    Player player1;
+    Player player2;
+    Player player3;
+    Player player4;
+
+    // Create three crewmates and an imposter
+    player1 = new Player("Vanness", "crewmate", "blue", "top hat", "racoon");
+    player2 = new Player("Sam", "crewmate", "orange", "leaf", "");
+    player3 = new Player("Braeden", "imposter", "purple", "astronaut helmet", "");
+    player4 = new Player("Shar", "crewmate", "black", "fedora", "alien");
 ```   
 
 In the lines above:
@@ -68,6 +132,36 @@ In the lines above:
 * the `new Player(...)` part is a call to the `constructor` method, passing in details of the player at the time of creation (instantiation)
 * assignment operator in between means we assign the result of the constructor to our `player1` variable
 
+
+Once we we create an object, we can begin to make use of it's methods.
+
+```
+// have the players do stuff
+    player1.walk();
+    player2.walk();
+    player3.walk();
+    player4.walk();
+
+    player1.performTask("electrical wires");
+    player4.performTask("oxygen");
+    player3.sabotage("oxygen");
+
+
+    // call an emergency meeting
+    player4.callEmergencyMeeting();
+
+    // discuss
+    player1.speak("Shar is the imposter!!");
+    player2.speak("ya, Shar is sus!");
+    player3.speak("shar is c tier imposter");
+    player4.speak("?? I was trying to do tasks");
+
+    // vote
+    player1.vote("Shar");
+    player2.vote("Shar");
+    player3.vote("Shar");
+    player4.vote("Shar");
+```
 
 
 
