@@ -9,7 +9,9 @@ language = "java10"
 
 # run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"
 
+
 # run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.EmployeeAddrDemo"
 
 run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.ClassroomMain"
+
 
