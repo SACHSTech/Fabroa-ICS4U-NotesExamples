@@ -33,10 +33,15 @@ Compare the `Student` and `Teacher` classes from previous lesson.
 | [Student.java](../lesson3_HasArelationships/Student.java)  | [Student.java](./Student.java)  |
 | [Teacher.java](../lesson3_HasArelationships/Teacher.java)  | [Teacher.java](./Teacher.java)  |
 
-#### `extend`
-Inheritance in java is achieved with the use of the `extend` keyword.  Notice the [`Student`](./Student.java#L4) and [`Teacher`]([./Teacher.java#L4]) class definition statements.  By including `extend`, the `Student` and `Teacher` classes become child classes to `Person`, *inheriting* all its properties and methods.
+#### `extends`
+Inheritance in java is achieved with the use of the `extend` keyword.  Notice the [`Student`](./Student.java#L4) and [`Teacher`](./Teacher.java#L4) class definition statements.  By including `extend`, the `Student` and `Teacher` classes become child classes to `Person`, *inheriting* all its properties and methods.
 
 #### `super()`
+* Recall that when you create an instance (object) of a class, we can specify how the object gets created through a constructor.   
+* When we extend the definition of a class through inheritance (i.e Person extended to Student) we don't want to code the instructions in the parents constructor all over again (i.e `getFirstName()` and `getLastName()`).
+* to eliminate redundancy, we can make a [call to the `super()`] method, which allows you to trigger a parent constructor (Person) from a child class (Student)
+parameters in the super() call should match the parameters of a parent constructor
+
 
 
 ### Is-A vs. Has-A Relationships
