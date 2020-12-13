@@ -21,7 +21,7 @@ So the design for the new Multi-function calculator is a combination of the two 
 
 ![3_5_Inheritance.png](3_5_Inheritance.png)  
 
-### Example Person, Student, Teacher
+### Example:  Person, Student, Teacher
 
 ![](extend.png)  
 
@@ -30,10 +30,11 @@ In this arrangement, we have defined a `super` or parent class, `Person.java`, w
 Compare the `Student` and `Teacher` classes from previous lesson.
 | Aggregation  | Inheritance  |
 |---|---|
-| Student.java  | Student.java  |
-| Teacher.java  | Teacher.java  |
+| [Student.java](../lesson3_HasArelationships/Student.java)  | [Student.java](./Student.java)  |
+| [Teacher.java](../lesson3_HasArelationships/Teacher.java)  | [Teacher.java](./Teacher.java)  |
 
-
+`extend`
+Inheritance in java is achieved with the use of the `extend` keyword.  Notice the `Student` and `Teacher` class definition statements.  
 
 ### Is-A vs. Has-A Relationships
 * Classes have two main types of relationships. They are “is a” and “has a” relationships.
