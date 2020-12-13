@@ -1,4 +1,4 @@
-package oop.lesson3_IsArelationships;
+package oop.lesson4_IsArelationships;
 
 
 /**

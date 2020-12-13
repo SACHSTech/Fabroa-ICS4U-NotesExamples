@@ -1,6 +1,8 @@
-package oop.lesson3_IsArelationships;
+package oop.lesson4_IsArelationships;
 
-public class Teacher{
+import oop.lesson4_IsArelationships.*;
+
+public class Teacher extends Person{
     
     private String teacherID;
     private Double salary;

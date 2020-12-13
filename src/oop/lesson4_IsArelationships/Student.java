@@ -1,4 +1,6 @@
-package oop.lesson3_IsArelationships;
+package oop.lesson4_IsArelationships;
+
+import oop.lesson4_IsArelationships.*;
 
 
 public class Student extends Person{
@@ -27,7 +29,7 @@ public class Student extends Person{
       * @return total number of students created
       */
      public static int getTotalStudents(){
-         return this.totalStudents;
+         return totalStudents;
      }
    
      
