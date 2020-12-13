@@ -17,3 +17,4 @@ language = "java10"
 run = "javac -d bin src/oop/lesson4_IsArelationships/*.java; java -cp bin oop.lesson4_IsArelationships.ClassroomMain"
 
 
+
