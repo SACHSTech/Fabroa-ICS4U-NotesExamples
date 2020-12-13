@@ -33,8 +33,11 @@ Compare the `Student` and `Teacher` classes from previous lesson.
 | [Student.java](../lesson3_HasArelationships/Student.java)  | [Student.java](./Student.java)  |
 | [Teacher.java](../lesson3_HasArelationships/Teacher.java)  | [Teacher.java](./Teacher.java)  |
 
-`extend`
-Inheritance in java is achieved with the use of the `extend` keyword.  Notice the `Student` and `Teacher` class definition statements.  
+#### `extend`
+Inheritance in java is achieved with the use of the `extend` keyword.  Notice the [`Student`](./Student.java#L4) and [`Teacher`]([./Teacher.java#L4]) class definition statements.  By including `extend`, the `Student` and `Teacher` classes become child classes to `Person`, *inheriting* all its properties and methods.
+
+#### `super()`
+
 
 ### Is-A vs. Has-A Relationships
 * Classes have two main types of relationships. They are “is a” and “has a” relationships.
