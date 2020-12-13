@@ -74,7 +74,7 @@ parameters in the super() call should match the parameters of a parent construct
   ### Example: Square Is A Rectangle
   
   #### Rectangle.java
-  ```
+```
   public class Rectangle
 {
     private int width;
@@ -106,11 +106,11 @@ parameters in the super() call should match the parameters of a parent construct
         return "Rectangle with width: " + width + " and height: " + height;
     }
 }
-  ```
+```
   
-  #### Square.java
+#### Square.java
   
-  ```
+```
   public class Square extends Rectangle
 {
     public Square(int sideLength)
@@ -130,7 +130,7 @@ parameters in the super() call should match the parameters of a parent construct
     }
     
 }
-  ```
+```
 
   
 
