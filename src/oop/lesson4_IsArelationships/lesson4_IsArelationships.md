@@ -53,6 +53,7 @@ parameters in the super() call should match the parameters of a parent construct
    totalStudents++;  // increase the student count
 }
  ```
+ ![](Inheritance_wHasA.png)
 
 
 ### Is-A vs. Has-A Relationships
