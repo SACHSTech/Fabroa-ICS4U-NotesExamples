@@ -10,8 +10,8 @@ public class Animal{
         System.out.println("grr grr");
     }
     
-    public void eat(){
-        System.out.println("munch munch");
+    public void eat(String food){
+        System.out.println("munch munch, the Animal is eating " + food);
     }
     
 }
