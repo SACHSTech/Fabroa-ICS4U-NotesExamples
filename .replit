@@ -14,6 +14,7 @@ language = "java10"
 
 # run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.ClassroomMain"
 
+
 # run = "javac -d bin src/oop/lesson4_IsArelationships/*.java; java -cp bin oop.lesson4_IsArelationships.ClassroomMain"
 
 # run = "javac -d bin src/oop/lesson5_polymorphism/*.java; java -cp bin oop.lesson5_polymorphism.MainProgram"
@@ -21,5 +22,6 @@ language = "java10"
 #  run = "javac -d bin src/algorithms/SearchLinear.java; java -cp bin algorithms.SearchLinear"
 
 run = "javac -d bin src/algorithms/SearchBinary.java; java -cp bin algorithms.SearchBinary"
+
 
 
