@@ -54,6 +54,9 @@ parameters in the super() call should match the parameters of a parent construct
 }
  ```
 
+ ![](Inheritance_wHasA.png)
+
+
 
 ### Is-A vs. Has-A Relationships
 * Classes have two main types of relationships. They are “is a” and “has a” relationships.
