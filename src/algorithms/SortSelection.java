@@ -6,6 +6,7 @@ public class SortSelection{
   public static void main (String args[]){
      // create an array of 7 integers
         int[] myArray = {45, 10, 21, 45, 50, 7, 2000};
+        System.out.println(Arrays.toString(myArray));
         
         // output the result of a linear search on key 45
         System.out.println(Arrays.toString(selection_sort(myArray)));
@@ -21,7 +22,7 @@ public static int[] selection_sort(int[] intArray)
       int currentMinIndex;
       for (int i = 0; i < intArray.length - 1; i++)  // i represents front of the unsorted list
       {
-          //System.out.println(Arrays.toString(intArray));
+          System.out.println(Arrays.toString(intArray));
 
           currentMinIndex = i;  // set current min to front of unsorted list
 
