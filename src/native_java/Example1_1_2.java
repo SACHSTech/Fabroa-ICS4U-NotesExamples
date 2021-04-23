@@ -1,4 +1,4 @@
-package NativeJava;
+package native_java;
 
 import java.io.*;
 
