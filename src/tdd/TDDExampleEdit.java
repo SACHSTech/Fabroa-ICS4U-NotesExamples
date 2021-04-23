@@ -1,6 +1,6 @@
 package tdd;
 
-public class TDDExample {
+public class TDDExampleEdit {
 
   public static boolean twoAsOne(int number1, int number2, int number3){
     if (number1 + number2 == number3){

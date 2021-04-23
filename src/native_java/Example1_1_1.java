@@ -1,4 +1,4 @@
-package NativeJava;
+package native_java;
 
 public class Example1_1_1{
 

@@ -8,7 +8,7 @@ import org.junit.Before;
 import tdd.TDDExample;
 
 
-public class TDDExampleTest {
+public class TDDExampleTestEdit {
 
     /**
      * An 'before' method is defined to perform any steps that need 

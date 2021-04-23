@@ -20,6 +20,8 @@ public class ClassroomMain
       Student arash = new Student("Arash", "Zelifan");
       arash.setGradeAvg(97);
       rm119.addStudent(arash);
+
+      rm119.printStudentList();
         
       System.out.println(rm119.getSize());
       System.out.println(rm119.getAverage());

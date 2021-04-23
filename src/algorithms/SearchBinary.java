@@ -9,7 +9,11 @@ public class SearchBinary{
         int[] intMyArray = {7, 10, 21, 45, 50, 2000};
         
         // output the result of a linear search on key 45
-        System.out.println(binarySearch(intMyArray, 88));
+
+        //System.out.println(binarySearch(intMyArray, 88));
+
+        System.out.println(binarySearch(intMyArray, 21));
+
 
     }
 

@@ -19,11 +19,21 @@ language = "java10"
 
 # run = "javac -d bin src/oop/lesson5_polymorphism/*.java; java -cp bin oop.lesson5_polymorphism.MainProgram"
 
+
 #run = "javac -d bin src/algorithms/SearchLinear.java; java -cp bin algorithms.SearchLinear"
 
 # run = "javac -d bin src/algorithms/SearchBinary.java; java -cp bin algorithms.SearchBinary"
+
 # run = "javac -d bin src/algorithms/SortSelection.java; java -cp bin algorithms.SortSelection"
-run = "javac -d bin src/algorithms/SortMerge.java; java -cp bin algorithms.SortMerge"
+# run = "javac -d bin src/algorithms/SortMerge.java; java -cp bin algorithms.SortMerge"
+
+#run = "javac -d bin src/algorithms/SortSelection.java; java -cp bin algorithms.SortSelection"
+
+
+#  run = "javac -d bin src/algorithms/SearchLinear.java; java -cp bin algorithms.SearchLinear"
+
+run = "javac -d bin src/algorithms/SearchBinary.java; java -cp bin algorithms.SearchBinary"
+
 
 
 

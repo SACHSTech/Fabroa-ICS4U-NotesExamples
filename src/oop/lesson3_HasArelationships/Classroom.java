@@ -37,6 +37,13 @@ public class Classroom {
         avg = total/getSize();    
         return avg;     
     }
+
+    public void printStudentList(){
+      for(int i = 0; i < getSize(); i++){
+        //System.out.println(students.get(i).getFirstName() + " " + students.get(i).getLastName());
+        System.out.println(students.get(i).toString());
+      }
+    }
 }
 
 
