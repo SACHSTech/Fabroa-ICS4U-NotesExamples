@@ -60,7 +60,7 @@ public class Student extends Person{
       }
 
       public String getNameTag(){
-        return "Student: " + this.lastName + ", " + this.firstName;
+        return "Student: " + this.getLastName() + ", " + this.getFirstName();
       }
       
 }

@@ -31,6 +31,6 @@ public class Teacher extends Person{
     }
 
     public String getNameTag(){
-        return "Teacher: " + this.lastName;
+        return "Teacher: " + this.getLastName();
     }
 }
