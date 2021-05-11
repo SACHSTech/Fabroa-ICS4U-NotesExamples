@@ -8,7 +8,7 @@ public class Example1_1_2{
 		String strName;
 		BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
-		System.out.println("What is your name?");
+		System.out.println("What is your name? ");
 		strName = keyboard.readLine();
 
 		System.out.println("Welcome to native java: "+strName);
