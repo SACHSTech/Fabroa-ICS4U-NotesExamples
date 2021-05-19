@@ -15,11 +15,45 @@ public class Recursion{
 	{
 		if(n == 0){			// Base Case
 			System.out.println("Blastoff");
-		}else{
+		}
+    else{
+      System.out.println(n);
 			countdown(n-1);	// Recursive Case
-			System.out.println(n);
 		}
 	}
+
+  /**
+  * Compute the factorial of a number.
+  * @param n
+  * @return the factorial of n.
+  */
+  public static int factorial(int n)
+  {     
+    if(n == 0) // Base case
+    {
+        return 1;
+    }  
+    return n * factorial(n - 1);  // Recursive case
+  }
+
+  /**
+  * given base x and exponent y, compute x to the power of y iteratively
+  * @param x The base
+  * @param y The exponent
+  * @return x to the power of y
+  */
+  public static int iPow(int x, int y){
+      
+    int result = 1;
+    
+    for(int i = 0; i < y; i++){
+        result = result * x;
+    } 
+    return result;
+    
+  }
+
+
 
   /** 
   * Compute a power.
