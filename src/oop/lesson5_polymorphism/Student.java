@@ -6,6 +6,7 @@ public class Student extends Person{
     
     //Instance Variables
     private Double gradeAvg;
+    private String student_id;
     
     // Class Variables
     private static int totalStudents = 0;
@@ -15,10 +16,10 @@ public class Student extends Person{
      * @param fname - the student first name, specified at time of creation
      * @param lname - the student last name, specified at time of creation
      */
-     public Student(String fname, String lname){
+     public Student(String fname, String lname, String sid){
          super(fname, lname);
-         gradeAvg = 0.0;
-         
+         this.gradeAvg = 0.0;
+         this.student_id = sid;
          totalStudents++;  // increase the student count
          
      }
@@ -60,7 +61,7 @@ public class Student extends Person{
       }
 
       public String getNameTag(){
-        return "Student: " + this.getLastName() + ", " + this.getFirstName();
+        return "Student: " + this.getLastName() + ", " + this.getFirstName() + "/n" + this.student_id;
       }
       
 }

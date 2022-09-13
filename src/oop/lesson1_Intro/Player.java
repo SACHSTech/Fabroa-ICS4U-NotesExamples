@@ -33,7 +33,10 @@ public class Player{
     
   }
 
-
+  /**
+  * Perform a task in the game.
+  * @param strTask The task to perform in the game.
+  */
   public void performTask(String strTask){
     System.out.println("Performing Task; " + strTask);
   }
@@ -56,6 +59,10 @@ public class Player{
 
   public void vote(String strVoteName){
     System.out.println(this.username + " voted for " + strVoteName);
+  }
+
+  public String getUsername(){
+    return this.username;
   }
   
 }

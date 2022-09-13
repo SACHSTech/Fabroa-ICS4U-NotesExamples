@@ -23,5 +23,6 @@ public class ClassroomMain
         
       System.out.println(rm119.getSize());
       System.out.println(rm119.getAverage());
+      Student.getTotalStudents();
     }
 }
