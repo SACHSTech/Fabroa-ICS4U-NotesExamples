@@ -56,6 +56,16 @@ public class Bird{
   }
 
   /**
+  * Set a new vertical position of the bird
+  * @param newYpos the new y position in metres.
+  */
+  public void setYpos(Double newYpos){
+    this.dblYpos = newYpos;
+  }
+
+
+
+  /**
   * Output bird position
   */
   public void printPosition(){

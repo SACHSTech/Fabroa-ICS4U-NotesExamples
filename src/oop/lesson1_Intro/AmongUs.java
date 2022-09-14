@@ -12,10 +12,10 @@ public class AmongUs{
     Player player4;
 
     // Create three crewmates and an imposter
-    player1 = new Player("Vanness", "crewmate", "blue", "top hat", "racoon");
-    player2 = new Player("Sam", "crewmate", "orange", "leaf", "");
-    player3 = new Player("Braeden", "imposter", "purple", "astronaut helmet", "");
-    player4 = new Player("Shar", "crewmate", "black", "fedora", "alien");
+    player1 = new Player("AndyG", "crewmate", "blue", "top hat", "racoon");
+    player2 = new Player("Josh", "crewmate", "orange", "leaf", "");
+    player3 = new Player("Alyanna", "imposter", "purple", "astronaut helmet", "");
+    player4 = new Player("Lucy", "crewmate", "black", "fedora", "alien");
 
 
     // have the players do stuff
@@ -33,16 +33,16 @@ public class AmongUs{
     player4.callEmergencyMeeting();
 
     // discuss
-    player1.speak("Shar is the imposter!!");
-    player2.speak("ya, Shar is sus!");
-    player3.speak("shar is c tier imposter");
+    player1.speak("Lucy is the imposter!!");
+    player2.speak("ya, Lucy is sus!");
+    player3.speak("Lucy is c tier imposter");
     player4.speak("?? I was trying to do tasks");
 
     // vote
-    player1.vote("Shar");
-    player2.vote("Shar");
-    player3.vote("Shar");
-    player4.vote("Shar");
+    player1.vote("Lucy");
+    player2.vote("Lucy");
+    player3.vote("Lucy");
+    player4.vote("Josh");
   }
 
 }

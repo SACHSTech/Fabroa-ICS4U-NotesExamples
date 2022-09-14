@@ -1,29 +1,15 @@
 language = "java10"
-run = "javac -d bin src/native_java/Example1_1_2.java; java -cp bin native_java.Example1_1_2"
-
+# run = "javac -d bin src/recursion/Recursion.java; java -cp bin recursion.Recursion"
+#run = "javac -d bin src/native_java/Example1_1_2.java; java -cp bin native_java.Example1_1_2"
 # run = "javac -cp bin -d bin -sourcepath src src/oop/lesson1_Intro/Player.java; javac -cp bin -d bin # src/oop/lesson1_Intro/AmongUs.java; java -cp bin oop.lesson1_Intro.AmongUs"
-
-
 # run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"
-
-
-# run = "javac -d bin src/oop/lesson2_Encapsulation/*.java; java -cp bin oop.lesson2_Encapsulation.AngryBird2"
-
+#run = "javac -d bin src/oop/lesson2_Encapsulation/*.java; java -cp bin oop.lesson2_Encapsulation.AngryBird2"
 # run = "javac -d bin src/oop/lesson1_Intro/*.java; java -cp bin oop.lesson1_Intro.AmongUs"
-
-
 # run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.EmployeeAddrDemo"
-
-# run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.ClassroomMain"
-
-
+#run = "javac -d bin src/oop/lesson3_HasArelationships/*.java; java -cp bin oop.lesson3_HasArelationships.ClassroomMain"
 # run = "javac -d bin src/oop/lesson4_IsArelationships/*.java; java -cp bin oop.lesson4_IsArelationships.ClassroomMain"
-
-# run = "javac -d bin src/oop/lesson5_polymorphism/*.java; java -cp bin oop.lesson5_polymorphism.MainProgram"
-
-
+#run = "javac -d bin src/oop/lesson5_polymorphism/*.java; java -cp bin oop.lesson5_polymorphism.MainProgram"
 #run = "javac -d bin src/algorithms/SearchLinear.java; java -cp bin algorithms.SearchLinear"
-
 # run = "javac -d bin src/algorithms/SearchBinary.java; java -cp bin algorithms.SearchBinary"
 
 # run = "javac -d bin src/algorithms/SortSelection.java; java -cp bin algorithms.SortSelection"
@@ -32,7 +18,7 @@ run = "javac -d bin src/native_java/Example1_1_2.java; java -cp bin native_java.
 #run = "javac -d bin src/algorithms/SortSelection.java; java -cp bin algorithms.SortSelection"
 
 
-#  run = "javac -d bin src/algorithms/SearchLinear.java; java -cp bin algorithms.SearchLinear"
+#run = "javac -d bin src/algorithms/SearchLinear.java; java -cp bin algorithms.SearchLinear"
 
 # run = "javac -d bin src/algorithms/SearchBinary.java; java -cp bin algorithms.SearchBinary"
 

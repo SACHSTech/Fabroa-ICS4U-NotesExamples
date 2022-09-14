@@ -6,16 +6,16 @@ public class ClassroomMain
 {
     public static void main(String[] args)
   {
-      Student ari = new Student("Ari", "Dokmecian");
-      ari.setGradeAvg(94);
+      Student douglas = new Student("Douglas", "Lau");
+      douglas.setGradeAvg(94);
               
       Teacher fabroa = new Teacher("Eric", "Fabroa", "123abc", 250000.0);
       
       System.out.println(fabroa.getLastName());
-      System.out.println(ari.getFirstName());
+      System.out.println(douglas.getFirstName());
       
       Classroom rm119 = new Classroom(119, fabroa);
-      rm119.addStudent(ari);
+      rm119.addStudent(douglas);
       
       Student arash = new Student("Arash", "Zelifan");
       arash.setGradeAvg(97);

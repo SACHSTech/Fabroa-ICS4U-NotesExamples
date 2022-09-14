@@ -31,6 +31,10 @@ public class AngryBird2{
       boolHitGround = false;
       boolHitWall = false;
 
+      //System.out.println(bird.dblXpos);
+      //bird.setYpos(10.0);
+      //bird.printPosition();
+
       while (!(boolHitGround) && !(boolHitWall)){
         bird.update(dblTimeInterval);
         bird.printPosition();

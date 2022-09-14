@@ -12,9 +12,10 @@ public class Dog extends Animal{
     public void makeNoise(){
         System.out.println("ruff!! ruff!!");
     }
-
+    
     public void eat(String food){
       System.out.println("nom nom, the Dog is eating " + food);
     }
+    
     
 }

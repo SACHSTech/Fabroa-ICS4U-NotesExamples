@@ -25,23 +25,27 @@ public class Classroom {
     public int getSize(){
         return students.size();
     }
-    
-    public Double getAverage(){
-        Double total = 0.0;
-        Double avg;
-        
-        for(int i = 0; i < getSize(); i++){
+
+    private Double getGradeTotal(){
+      Double total = 0.0;
+      for(int i = 0; i < getSize(); i++){
             total = total + students.get(i).getGradeAvg();
         }
-        
-        avg = total/getSize();    
+      return total;
+    }
+    
+    public Double getAverage(){
+       
+        Double avg;
+        avg = getGradeTotal()/getSize();    
         return avg;     
     }
 
     public void printStudentList(){
       for(int i = 0; i < getSize(); i++){
         //System.out.println(students.get(i).getFirstName() + " " + students.get(i).getLastName());
-        System.out.println(students.get(i).toString());
+        //System.out.println(students.get(i).toString());
+        System.out.println(students.get(i));
       }
     }
 }

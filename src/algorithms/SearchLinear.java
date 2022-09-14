@@ -5,9 +5,9 @@ public class SearchLinear{
     {
         
         // create an array of 7 integers
-        int[] myArray = {45, 10, 21, 45, 50, 7, 2000};
+        int[] myArray = {45, 10, 12, 45, 50, 7, 2000};
         
-        // output the result of a linear search on key 45
+        // output the result of a linear search on key 21
         System.out.println(linearSearch(myArray, 21));
 
     }

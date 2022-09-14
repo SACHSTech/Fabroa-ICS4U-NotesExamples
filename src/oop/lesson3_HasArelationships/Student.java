@@ -18,7 +18,7 @@ public class Student{
      */
      public Student(String fname, String lname){
          this.firstName = fname;
-         this.lastName = lastName;
+         this.lastName = lname;
          this.gradeAvg = 0.0;
          
          totalStudents++;  // increase the student count
@@ -47,7 +47,7 @@ public class Student{
       * @return firstName lastname and grade in a string
       */
       public String toString(){
-          return getLastName() + ", " + getFirstName() + ": " + Double.toString(gradeAvg);
+          return this.getLastName() + ", " + this.getFirstName() + ": " + Double.toString(gradeAvg);
       }
         
       
