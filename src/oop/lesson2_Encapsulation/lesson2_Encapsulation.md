@@ -24,13 +24,13 @@ Every tenth of a second, compute the x-position and y-position of the bird and s
 Initialize the health of the wall
 
 while health of wall > 0
-	get the launch angle theta
+  get the launch angle theta
   get the launch velocity
   initialize xpos, ypos
   calculate initial velocities xvel, yvel
   while bird has not hit the ground and bird has not hit the wall
-	  update the xpos, ypos, and yvel for 0.1 seconds further into flight
-    check if bird has hit the ground or hit the wall based on xpos, ypos
+	update the xpos, ypos, and yvel for 0.1 seconds further into flight
+	check if bird has hit the ground or hit the wall based on xpos, ypos
 
   if bird hit the wall
     decrement health of wall by 1
